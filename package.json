@@ -5,6 +5,11 @@
   "repository": "git@github.com:josestg/rehype-figure.git",
   "author": "Jose Alfredo Sitanggang <josealfredositanggang@gmail.com>",
   "license": "MIT",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "nyc --reporter lcov  mocha *.test.js"
   },
